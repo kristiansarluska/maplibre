@@ -23,8 +23,15 @@
         zoom: 6
     });
 
-    const marker = new maplibregl.Marker()
+    const marker1 = new maplibregl.Marker()
         .setLngLat([17.25, 49.5])
+        .addTo(map);
+
+    const marker2 = new maplibregl.Marker()
+        .setLngLat([12.25, 9.5])
+        .addTo(map);
+    const marker3 = new maplibregl.Marker()
+        .setLngLat([56.25, -6.5])
         .addTo(map);
 </script>
 </body>
